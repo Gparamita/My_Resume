@@ -1,0 +1,134 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+html{
+    line-height: 1.15;
+
+}
+body{
+    margin: 0;
+    font-family: "Roboto", sans-serif ;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.15;
+    color: #3282d1;
+    text-align: left;
+    background-color: aliceblue;
+}
+a{
+    text-decoration:none;
+    
+    font-weight: 500;
+    line-height: 2;
+}
+a:hover{
+    color: #078571;
+    text-decoration: underline;
+}
+h1,h2,h3,h4,h5,h6,p{
+    color: #020202 !important;
+} 
+
+.container li{
+    
+    text-decoration: solid;
+    color: #1E90FF;
+    line-height: 2rem;
+    margin-left: 10px;
+    
+}
+/*navbar*/
+.navbar-light{
+    display: none;
+}
+.navbar-light .navbar-nav .nav-link {
+    padding: 15px 10px;
+    color: #05111d;
+    font-weight: 600;
+    outline: none;
+  }
+  
+  .navbar-light .navbar-nav .nav-link:hover,
+  .navbar-light .navbar-nav .nav-link.active {
+    color: #1E90FF;
+  }
+
+@media (max-width: 991.98px){
+    .navbar-light .navbar-nav .nav-link{
+        padding: 10px 0;
+    }
+}
+/*Header*/
+.bgs-primary{
+    background-color: #1E90FF;
+}
+.about-img{
+    margin-left: -100px;
+    right: -70px;
+}
+
+.btn-white{
+    background-color:#f3f3e6 ;
+    border: 2px solid #1589FF;
+}
+.typed-cursor{
+    font-size: 45px;
+    color: aliceblue;
+}
+.position-absolute{
+    font-weight: 700 ;
+}
+@media (max-width: 700px){
+    .about-img{
+        margin-left: 20px;
+        right: 0px;
+        top: 30px;
+    }
+}
+
+
+/*Education*/
+.card{
+    border: 0;
+    border-radius: 0.1875rem;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 20px;
+    box-shadow: 0px 5px 25px 0px #81c0ebee;
+    line-height: 2rem;
+}
+.card .card-body{
+    min-height: 200px;
+    line-height: 2rem;
+}
+.card-body p{
+    line-height: 2rem;
+}
+.cc-education .cc-education-header{
+    padding-top: 60px;
+    padding-right: 0;
+    text-align: center;
+    color: #fff;
+    line-height: 2rem;
+}
+/*skills*/
+.progress {
+    border-radius: 0.625rem;
+  }
+  
+.progress .progress-bar {
+    width: 0rem;
+    border-radius: 0.625rem;
+    transition: 2s;
+}
+
+
+.contact-form .help-block ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
